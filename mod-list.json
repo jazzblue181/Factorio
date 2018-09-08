@@ -1,0 +1,168 @@
+{
+  "mods": [
+    {
+      "name": "base",
+      "enabled": true
+    },
+    {
+      "name": "AAA-agile-alien-academy",
+      "enabled": true
+    },
+    {
+      "name": "Aircraft",
+      "enabled": true
+    },
+    {
+      "name": "auto-research",
+      "enabled": true
+    },
+    {
+      "name": "AutoDeconstruct",
+      "enabled": true
+    },
+    {
+      "name": "Big_Brother",
+      "enabled": true
+    },
+    {
+      "name": "Bio_Industries",
+      "enabled": true
+    },
+    {
+      "name": "builderport",
+      "enabled": true
+    },
+    {
+      "name": "CannonAlpha",
+      "enabled": true
+    },
+    {
+      "name": "Combat_by_Samuel",
+      "enabled": true
+    },
+    {
+      "name": "DoubleCargoWagon",
+      "enabled": true
+    },
+    {
+      "name": "EfficientSmelting",
+      "enabled": true
+    },
+    {
+      "name": "EndgameCombat",
+      "enabled": true
+    },
+    {
+      "name": "extinguisher",
+      "enabled": true
+    },
+    {
+      "name": "Factorissimo2",
+      "enabled": true
+    },
+    {
+      "name": "fireproof-bots",
+      "enabled": true
+    },
+    {
+      "name": "LaserRifle",
+      "enabled": true
+    },
+    {
+      "name": "logtech-beacon",
+      "enabled": true
+    },
+    {
+      "name": "NuclearRobots",
+      "enabled": true
+    },
+    {
+      "name": "Nuclear_Artillery",
+      "enabled": true
+    },
+    {
+      "name": "Nuclear_Artillery_Shell",
+      "enabled": true
+    },
+    {
+      "name": "platforms",
+      "enabled": true
+    },
+    {
+      "name": "Power Armor MK3",
+      "enabled": true
+    },
+    {
+      "name": "Power Armor MK4",
+      "enabled": true
+    },
+    {
+      "name": "quarry",
+      "enabled": true
+    },
+    {
+      "name": "Rampant",
+      "enabled": true
+    },
+    {
+      "name": "Rampant-Blockable-Projectiles",
+      "enabled": true
+    },
+    {
+      "name": "ReducedResearch",
+      "enabled": true
+    },
+    {
+      "name": "SimpleGodModule",
+      "enabled": true
+    },
+    {
+      "name": "Single-Splitter",
+      "enabled": true
+    },
+    {
+      "name": "SpaceMod",
+      "enabled": true
+    },
+    {
+      "name": "Teleportation",
+      "enabled": true
+    },
+    {
+      "name": "TheFatController",
+      "enabled": true
+    },
+    {
+      "name": "Turret-Shields",
+      "enabled": true
+    },
+    {
+      "name": "upgrade-planner2",
+      "enabled": true
+    },
+    {
+      "name": "UpgradedRoboports",
+      "enabled": true
+    },
+    {
+      "name": "Uranium Shotgun Shell",
+      "enabled": true
+    },
+    {
+      "name": "walls-block-spitters",
+      "enabled": true
+    },
+    {
+      "name": "Waterfill_v15",
+      "enabled": true
+    },
+    {
+      "name": "WaterWell",
+      "enabled": true
+    },
+    {
+      "name": "Wind_Turbine V16",
+      "enabled": true
+    }
+  ]
+}
