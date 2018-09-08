@@ -16,7 +16,7 @@ data:extend(
     type = "recipe",
     name = "fiole-alien-2",
 	group = "AAA",
-    enabled = false,
+    enabled = true,
 	energy_required = 12,
     ingredients =
     {
