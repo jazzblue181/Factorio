@@ -13,5 +13,11 @@ data:extend(
     name = "test-subgroup",
     group = "test-group",
     order = "a"
+  },
+  {
+    type = "item-subgroup",
+    name = "fluid-subgroup",
+    group = "test-group",
+    order = "a"
   }
 })
