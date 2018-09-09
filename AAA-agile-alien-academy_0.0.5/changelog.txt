@@ -1,0 +1,11 @@
+## 0.0.5 ##
++ fluid weapon 
++ two fluids : frost fluid and defrost fluid
+## 0.0.4 ##
++ fiole 3 + techno name fixe + try stat balancing
+## 0.0.3 ##
++ minor bug
+## 0.0.2 ##
++ technology
+## 0.0.1 ##
++ Initial release
