@@ -45,6 +45,10 @@
       "enabled": true
     },
     {
+      "name": "DoubleSpeedBelts",
+      "enabled": true
+    },
+    {
       "name": "EfficientSmelting",
       "enabled": true
     },
