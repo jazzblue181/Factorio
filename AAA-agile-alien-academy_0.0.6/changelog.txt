@@ -1,5 +1,6 @@
 ## 0.0.6 ##
 + five technologies for enhance the speed of robot
++ five technologies for enhance the storage of robot
 ## 0.0.5 ##
 + fluid weapon 
 + two fluids : frost fluid and defrost fluid

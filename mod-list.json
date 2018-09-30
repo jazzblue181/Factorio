@@ -29,6 +29,10 @@
       "enabled": true
     },
     {
+      "name": "Boosted Belts",
+      "enabled": true
+    },
+    {
       "name": "builderport",
       "enabled": true
     },
@@ -42,10 +46,6 @@
     },
     {
       "name": "DoubleCargoWagon",
-      "enabled": true
-    },
-    {
-      "name": "DoubleSpeedBelts",
       "enabled": true
     },
     {
