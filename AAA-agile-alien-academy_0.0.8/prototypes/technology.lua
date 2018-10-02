@@ -42,7 +42,7 @@ data:extend(
     unit =
     {
       time = 60,
-      count = 2000,
+      count = 2000,---- 2000
       ingredients =
       {
         {"erlenmeyer-alien-1", 1},
@@ -67,7 +67,7 @@ data:extend(
     unit =
     {
       time = 60,
-      count = 4000,
+      count = 4000,----4000
       ingredients =
       {
         {"erlenmeyer-alien-2", 1},
@@ -75,7 +75,60 @@ data:extend(
     },
     order = "w",
   },
+  {
+    type = "technology",
+    name = "erlenmeyerAlien4",
+	icon = "__AAA-agile-alien-academy__/graphics/icon/science-alien-4.png",
+    icon_size = 32,
+    prerequisites = {"erlenmeyerAlien3"},
+    effects =
+    {      
+		{
+			type = "unlock-recipe",
+			recipe = "erlenmeyer-alien-4",
+		},
+		table.insert(data.raw["lab"]["lab"].inputs,"erlenmeyer-alien-4")
+    },
+    unit =
     {
+      time = 60,
+      count = 40000,-- 40000
+      ingredients =
+      {
+        {"erlenmeyer-alien-3", 1},
+      },
+    },
+    order = "w",
+  },
+     {
+    type = "technology",
+    name = "uranium-processing_alien",
+    icon = "__AAA-agile-alien-academy__/graphics/icon/uranium-processing_alien.png",
+    icon_size = 78,
+    effects =
+    {
+      {
+        type = "unlock-recipe",
+		recipe = "uranium-processing_alien",
+		recipe = "uranium-fuel-cell_alien"
+      }
+    },
+    prerequisites = {"erlenmeyerAlien4"},
+    unit =
+    {
+      count = 20,
+      ingredients =
+      {
+        {"erlenmeyer-alien-1", 1},
+        {"erlenmeyer-alien-2", 1},
+		{"erlenmeyer-alien-3", 1},
+        {"erlenmeyer-alien-4", 1},
+      },
+      time = 15
+    },
+    order = "e-c-b"
+  },  
+  {
     type = "technology",
     name = "workeRobotsHyperSpeed1",
     icon_size = 540,

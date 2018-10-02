@@ -1,3 +1,9 @@
+## 0.0.8 ##
++ erlenmeyer blue 
++ technologies erlenmeyer blue 
++ uranium-processing_alien
++ uranium-fuel-cell_alien 8000 GJ
++ uranium-360
 ## 0.0.7 ##
 change term "fiole" by "erlenmeyer"
 ## 0.0.6 ##
