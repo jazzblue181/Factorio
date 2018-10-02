@@ -2,7 +2,7 @@ data:extend(
 {  
 {
     type = "technology",
-    name = "fioleAlien1",
+    name = "erlenmeyerAlien1",
 	icon = "__AAA-agile-alien-academy__/graphics/icon/science-alien-1.png",
     icon_size = 32,
     prerequisites = {"engine"},
@@ -10,9 +10,9 @@ data:extend(
     {      
 		{
 			type = "unlock-recipe",
-			recipe = "fiole-alien-1"
+			recipe = "erlenmeyer-alien-1"
 		},
-		table.insert(data.raw["lab"]["lab"].inputs,"fiole-alien-1")
+		table.insert(data.raw["lab"]["lab"].inputs,"erlenmeyer-alien-1")
     },
     unit =
     {
@@ -27,17 +27,17 @@ data:extend(
   },
 {
     type = "technology",
-    name = "fioleAlien2",
+    name = "erlenmeyerAlien2",
 	icon = "__AAA-agile-alien-academy__/graphics/icon/science-alien-2.png",
     icon_size = 32,
-    prerequisites = {"fioleAlien1"},
+    prerequisites = {"erlenmeyerAlien1"},
     effects =
     {      
 		{
 			type = "unlock-recipe",
-			recipe = "fiole-alien-2"
+			recipe = "erlenmeyer-alien-2"
 		},
-		table.insert(data.raw["lab"]["lab"].inputs,"fiole-alien-2")
+		table.insert(data.raw["lab"]["lab"].inputs,"erlenmeyer-alien-2")
     },
     unit =
     {
@@ -45,24 +45,24 @@ data:extend(
       count = 2000,
       ingredients =
       {
-        {"fiole-alien-1", 1},
+        {"erlenmeyer-alien-1", 1},
       },
     },
     order = "w",
   },
 {
     type = "technology",
-    name = "fioleAlien3",
+    name = "erlenmeyerAlien3",
 	icon = "__AAA-agile-alien-academy__/graphics/icon/science-alien-3.png",
     icon_size = 32,
-    prerequisites = {"fioleAlien2"},
+    prerequisites = {"erlenmeyerAlien2"},
     effects =
     {      
 		{
 			type = "unlock-recipe",
-			recipe = "fiole-alien-3"
+			recipe = "erlenmeyer-alien-3"
 		},
-		table.insert(data.raw["lab"]["lab"].inputs,"fiole-alien-3")
+		table.insert(data.raw["lab"]["lab"].inputs,"erlenmeyer-alien-3")
     },
     unit =
     {
@@ -70,7 +70,7 @@ data:extend(
       count = 4000,
       ingredients =
       {
-        {"fiole-alien-2", 1},
+        {"erlenmeyer-alien-2", 1},
       },
     },
     order = "w",
@@ -92,7 +92,7 @@ data:extend(
     {
       ingredients =
       {
-        {"fiole-alien-3", 100},
+        {"erlenmeyer-alien-3", 100},
       },
       time = 60,
       count = 1000,
@@ -116,7 +116,7 @@ data:extend(
     {
       ingredients =
       {
-        {"fiole-alien-3", 200},
+        {"erlenmeyer-alien-3", 200},
       },
       time = 60,
       count = 1000,
@@ -140,7 +140,7 @@ data:extend(
     {
       ingredients =
       {
-        {"fiole-alien-3", 300},
+        {"erlenmeyer-alien-3", 300},
       },
       time = 60,
       count = 1000,
@@ -164,7 +164,7 @@ data:extend(
     {
       ingredients =
       {
-        {"fiole-alien-3", 400},
+        {"erlenmeyer-alien-3", 400},
       },
       time = 60,
       count = 1000,
@@ -188,7 +188,7 @@ data:extend(
     {
       ingredients =
       {
-        {"fiole-alien-3", 500},
+        {"erlenmeyer-alien-3", 500},
       },
       time = 60,
       count = 1000,
@@ -199,11 +199,11 @@ data:extend(
 
 for i = 1,5 do
 	local ingredients = {
-			{"fiole-alien-3", 100},
+			{"erlenmeyer-alien-3", 100},
 	}
 	if i > 4 then
 		ingredients = {
-			{"fiole-alien-3", 400},
+			{"erlenmeyer-alien-3", 400},
 		}
 	end
 		  

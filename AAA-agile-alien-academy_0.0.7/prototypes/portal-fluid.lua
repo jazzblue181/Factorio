@@ -21,8 +21,8 @@ data:extend({
       count = 20,
       ingredients =
       {
-        {"fiole-alien-1", 1},
-        {"fiole-alien-2", 1}
+        {"erlenmeyer-alien-1", 1},
+        {"erlenmeyer-alien-2", 1}
       },
       time = 15
     },
@@ -46,8 +46,8 @@ data:extend({
       count = 20,
       ingredients =
       {
-        {"fiole-alien-1", 1},
-        {"fiole-alien-2", 1}
+        {"erlenmeyer-alien-1", 1},
+        {"erlenmeyer-alien-2", 1}
       },
       time = 15
     },
@@ -71,8 +71,8 @@ data:extend({
       count = 20,
       ingredients =
       {
-        {"fiole-alien-1", 1},
-        {"fiole-alien-2", 1}
+        {"erlenmeyer-alien-1", 1},
+        {"erlenmeyer-alien-2", 1}
       },
       time = 15
     },
@@ -490,10 +490,10 @@ data:extend(
     name = "fluid-projector-ammo-frost",
     category = "chemistry",
     enabled = false,
-    energy_required = 3,
+    energy_erlenmeyerd = 3,
     ingredients =
     {   
-	  {"fiole-alien-1", 100},
+	  {"erlenmeyer-alien-1", 100},
       {type="fluid", name="water", amount=5}
     },
     result = "fluid-projector-ammo-frost"
@@ -503,10 +503,10 @@ data:extend(
     name = "fluid-projector-ammo-defrost",
     category = "chemistry",
     enabled = false,
-    energy_required = 3,
+    energy_erlenmeyerd = 3,
     ingredients =
     {   
-	  {"fiole-alien-2", 100},
+	  {"erlenmeyer-alien-2", 100},
       {type="fluid", name="water", amount=5}
     },
     result = "fluid-projector-ammo-defrost"
@@ -518,7 +518,7 @@ data:extend({
     type = "recipe",
     name = "fluid-projector",
     enabled = false,
-    energy_required = 10,
+    energy_erlenmeyerd = 10,
     ingredients =
     {
       {"steel-plate", 5},
