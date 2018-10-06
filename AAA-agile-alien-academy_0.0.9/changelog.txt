@@ -1,3 +1,6 @@
+## 0.0.9 ##
++ item nuclear fuel alien 8TJ (4.5x Acc; 2.15x SpeedMax)
++ balancing uranium-fuel-cell_alien recipe
 ## 0.0.8 ##
 + erlenmeyer blue 
 + technologies erlenmeyer blue 

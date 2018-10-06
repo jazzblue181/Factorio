@@ -69,7 +69,18 @@ data:extend(
       {"uranium-360", 1}
     },
     result = "uranium-fuel-cell_alien",
-    result_count = 2
+    result_count = 10
+  },
+    {
+    type = "recipe",
+    name = "nuclear-fuel_alien",
+    energy_required = 60,
+    enabled = false,
+    category = "centrifuging",
+    ingredients = {{"uranium-360", 1}, {"rocket-fuel", 1}},
+    icon = "__AAA-agile-alien-academy__/graphics/icon/nuclear-fuel_alien.png",
+    icon_size = 32,
+    result = "nuclear-fuel_alien"
   },
     {
     type = "recipe",

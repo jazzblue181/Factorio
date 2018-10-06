@@ -67,5 +67,20 @@ data:extend(
     order = "r[uranium-360]",
     stack_size = 100
   },
+    {
+    type = "item",
+    name = "nuclear-fuel_alien",
+    icon = "__AAA-agile-alien-academy__/graphics/icon/nuclear-fuel_alien.png",
+    icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    fuel_category = "chemical",
+    fuel_value = "8TJ",
+    fuel_acceleration_multiplier = 4.5,
+    fuel_top_speed_multiplier = 2.15,
+    -- fuel_glow_color = {r = 0.1, g = 1, b = 0.1},
+    subgroup = "intermediate-product",
+    order = "q[uranium-rocket-fuel]",
+    stack_size = 1
+  },
 }
 )

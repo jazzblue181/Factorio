@@ -114,6 +114,10 @@ data:extend(
       {
         type = "unlock-recipe",
 		recipe = "uranium-fuel-cell_alien"
+      },
+      {
+        type = "unlock-recipe",
+		recipe = "nuclear-fuel_alien"
       }
 	},
     prerequisites = {"erlenmeyerAlien4","kovarex-enrichment-process"},
