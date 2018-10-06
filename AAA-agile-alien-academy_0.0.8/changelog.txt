@@ -2,8 +2,10 @@
 + erlenmeyer blue 
 + technologies erlenmeyer blue 
 + uranium-processing_alien
-+ uranium-fuel-cell_alien 8000 GJ
++ uranium-fuel-cell_alien 8000 GJ (=8 TJ)
 + uranium-360
++ balancing erlenmeyer recipes
++ fix bug
 ## 0.0.7 ##
 change term "fiole" by "erlenmeyer"
 ## 0.0.6 ##

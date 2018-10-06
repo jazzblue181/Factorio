@@ -109,14 +109,17 @@ data:extend(
     {
       {
         type = "unlock-recipe",
-		recipe = "uranium-processing_alien",
+		recipe = "uranium-processing_alien"
+      },
+      {
+        type = "unlock-recipe",
 		recipe = "uranium-fuel-cell_alien"
       }
-    },
-    prerequisites = {"erlenmeyerAlien4"},
+	},
+    prerequisites = {"erlenmeyerAlien4","kovarex-enrichment-process"},
     unit =
     {
-      count = 20,
+      count = 200,
       ingredients =
       {
         {"erlenmeyer-alien-1", 1},

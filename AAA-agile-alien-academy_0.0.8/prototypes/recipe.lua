@@ -8,10 +8,10 @@ data:extend(
 	energy_erlenmeyerd = 10,
     ingredients =
     {
-		{"biter-flesh", 100}--100
+		{"biter-flesh", 5}--100
     },
     result = "erlenmeyer-alien-1",
-	result_count=10  
+	result_count=3  
   },
   {
     type = "recipe",
@@ -24,10 +24,10 @@ data:extend(
     ingredients =
     {
 		{"science-pack-1", 1},
-		{"erlenmeyer-alien-1", 100}--100
+		{"erlenmeyer-alien-1", 10}--100
     },
     result = "erlenmeyer-alien-2",
-	result_count=10  
+	result_count=5
     
   },
   {
@@ -39,10 +39,10 @@ data:extend(
     ingredients =
     {
 		{"science-pack-2", 1},
-		{"erlenmeyer-alien-2", 100}--100
+		{"erlenmeyer-alien-2", 20}--100
     },
     result = "erlenmeyer-alien-3",
-	result_count=10  
+	result_count=7  
   },
     {
     type = "recipe",
@@ -53,10 +53,10 @@ data:extend(
     ingredients =
     {
 		{"science-pack-3", 1},
-		{"erlenmeyer-alien-3", 100}--100
+		{"erlenmeyer-alien-3", 40}--100
     },
     result = "erlenmeyer-alien-4",
-	result_count=10  
+	result_count=9  
   },
     {
     type = "recipe",
@@ -69,7 +69,7 @@ data:extend(
       {"uranium-360", 1}
     },
     result = "uranium-fuel-cell_alien",
-    result_count = 1
+    result_count = 2
   },
     {
     type = "recipe",
@@ -77,22 +77,22 @@ data:extend(
     energy_required = 100,
     enabled = false,
     category = "centrifuging",
-    ingredients = {{"uranium-235", 10}, {"erlenmeyer-alien-4",1}},
+    ingredients = {{"uranium-235", 69}, {"erlenmeyer-alien-4",1}},
     icon = "__AAA-agile-alien-academy__/graphics/icon/uranium-processing_alien.png",
     icon_size = 78,
     subgroup = "raw-material",
-    order = "k[uranium-processing]", -- k ordering so it shows up after explosives which is j ordering
+    order = "r[uranium-processing]-d[uranium-processing_alien]",
     results =
     {
       {
         name = "uranium-360",
-        probability = 0.007,
+        probability = 0.05,
         amount = 1
       },
       {
         name = "uranium-235",
-        probability = 0.993,
-        amount = 4
+        probability = 0.95,
+        amount = 19
       }
     }
   }
