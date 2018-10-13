@@ -58,7 +58,7 @@
     },
     {
       "name": "EndgameCombat",
-      "enabled": true
+      "enabled": false
     },
     {
       "name": "extinguisher",

@@ -1,17 +1,17 @@
 data:extend(
 {
-  {
-    type = "recipe",
-    name = "alienAAA",
-	group = "AAA",
-    enabled = true,
-	energy_required = 10,
-    ingredients =
-    {
-		{"biter-flesh", 5}--100
-    },
-    result = "alienAAA",	
-  },
+  -- {
+    -- type = "recipe",
+    -- name = "alienAAA",
+	-- group = "AAA",
+    -- enabled = true,
+	-- energy_required = 10,
+    -- ingredients =
+    -- {
+		-- {"biter-flesh", 5}--100
+    -- },
+    -- result = "alienAAA",	
+  -- },
   {
     type = "recipe",
     name = "erlenmeyer-alien-1",

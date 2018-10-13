@@ -1,6 +1,7 @@
 ## 0.1.0 ##
-+ alien artefact
++ new alien artefact
 + recipe for craft erlenmeyer
+/!\ indepandence of Endgame (bite flesh of EndGame is useless for the moment)
 ## 0.0.9 ##
 + item nuclear fuel alien 8TJ (4.5x Acc; 2.15x SpeedMax)
 + balancing uraniumFuelCellAlien recipe
