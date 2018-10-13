@@ -13,6 +13,10 @@
       "enabled": true
     },
     {
+      "name": "artillery-bombardment-remote",
+      "enabled": true
+    },
+    {
       "name": "auto-research",
       "enabled": true
     },
@@ -37,7 +41,7 @@
       "enabled": true
     },
     {
-      "name": "CannonAlpha",
+      "name": "cargo-ships",
       "enabled": true
     },
     {
@@ -69,11 +73,23 @@
       "enabled": true
     },
     {
+      "name": "FoodIndustry",
+      "enabled": false
+    },
+    {
+      "name": "InlaidLamps",
+      "enabled": true
+    },
+    {
       "name": "LaserRifle",
       "enabled": true
     },
     {
       "name": "logtech-beacon",
+      "enabled": true
+    },
+    {
+      "name": "MoreAchievements",
       "enabled": true
     },
     {
@@ -169,7 +185,15 @@
       "enabled": true
     },
     {
+      "name": "Will-o-the-Wisps_updated",
+      "enabled": true
+    },
+    {
       "name": "Wind_Turbine V16",
+      "enabled": true
+    },
+    {
+      "name": "ZAdventure",
       "enabled": true
     }
   ]

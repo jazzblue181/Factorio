@@ -1,11 +1,14 @@
+## 0.1.0 ##
++ alien artefact
++ recipe for craft erlenmeyer
 ## 0.0.9 ##
 + item nuclear fuel alien 8TJ (4.5x Acc; 2.15x SpeedMax)
-+ balancing uranium-fuel-cell_alien recipe
++ balancing uraniumFuelCellAlien recipe
 ## 0.0.8 ##
 + erlenmeyer blue 
 + technologies erlenmeyer blue 
 + uranium-processing_alien
-+ uranium-fuel-cell_alien 8000 GJ (=8 TJ)
++ uraniumFuelCellAlien 8000 GJ (=8 TJ)
 + uranium-360
 + balancing erlenmeyer recipes
 + fix bug

@@ -20,7 +20,7 @@ data:extend(
       count = 1000,
       ingredients =
       {
-        {"biter-flesh", 1},
+        {"alienAAA", 1},
       },
     },
     order = "w",

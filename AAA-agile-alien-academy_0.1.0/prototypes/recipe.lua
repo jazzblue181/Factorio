@@ -2,13 +2,25 @@ data:extend(
 {
   {
     type = "recipe",
-    name = "erlenmeyer-alien-1",
+    name = "alienAAA",
 	group = "AAA",
-    enabled = false,
-	energy_erlenmeyerd = 10,
+    enabled = true,
+	energy_required = 10,
     ingredients =
     {
 		{"biter-flesh", 5}--100
+    },
+    result = "alienAAA",	
+  },
+  {
+    type = "recipe",
+    name = "erlenmeyer-alien-1",
+	group = "AAA",
+    enabled = false,
+	energy_required = 10,
+    ingredients =
+    {
+		{"alienAAA", 5}--100
     },
     result = "erlenmeyer-alien-1",
 	result_count=3  
@@ -18,7 +30,7 @@ data:extend(
     name = "erlenmeyer-alien-2",
 	group = "AAA",
     enabled = false,
-	energy_erlenmeyerd = 20,
+	energy_required = 20,
 	--count = 600,
 	--time = 30
     ingredients =
@@ -35,7 +47,7 @@ data:extend(
     name = "erlenmeyer-alien-3",
 	group = "AAA",
     enabled = false,
-	energy_erlenmeyerd = 40,
+	energy_required = 40,
     ingredients =
     {
 		{"science-pack-2", 1},
@@ -49,7 +61,7 @@ data:extend(
     name = "erlenmeyer-alien-4",
 	group = "AAA",
     enabled = false,
-	energy_erlenmeyerd = 40,
+	energy_required = 40,
     ingredients =
     {
 		{"science-pack-3", 1},
@@ -82,7 +94,7 @@ data:extend(
     icon_size = 32,
     result = "nuclear-fuel_alien"
   },
-    {
+  {
     type = "recipe",
     name = "uranium-processing_alien",
     energy_required = 100,
@@ -106,5 +118,21 @@ data:extend(
         amount = 19
       }
     }
-  }
+  },
+  -- {
+    -- type = "recipe",
+    -- name = "artillery-shell_alien",
+	-- icon = "__AAA-agile-alien-academy__/graphics/artillery-projectile_alien/artillery-shell_alien.png",
+	-- icon_size = 32,
+    -- enabled = true,
+    -- energy_required = 15,
+    -- ingredients =
+    -- {
+      -- {"explosive-cannon-shell", 4},
+      -- {"radar", 1},
+      -- {"explosives", 8}
+    -- },
+    -- result = "artillery-shell_alien",
+	-- order = "a[AAA]-d[artillery-shell_alien]",
+  -- },
   })

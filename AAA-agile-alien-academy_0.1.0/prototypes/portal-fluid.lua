@@ -490,7 +490,7 @@ data:extend(
     name = "fluid-projector-ammo-frost",
     category = "chemistry",
     enabled = false,
-    energy_erlenmeyerd = 3,
+    energy_required = 3,
     ingredients =
     {   
 	  {"erlenmeyer-alien-1", 100},
@@ -503,7 +503,7 @@ data:extend(
     name = "fluid-projector-ammo-defrost",
     category = "chemistry",
     enabled = false,
-    energy_erlenmeyerd = 3,
+    energy_required = 3,
     ingredients =
     {   
 	  {"erlenmeyer-alien-2", 100},
@@ -518,7 +518,7 @@ data:extend({
     type = "recipe",
     name = "fluid-projector",
     enabled = false,
-    energy_erlenmeyerd = 10,
+    energy_required = 10,
     ingredients =
     {
       {"steel-plate", 5},
