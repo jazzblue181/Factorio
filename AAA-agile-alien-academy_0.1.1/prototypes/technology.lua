@@ -20,7 +20,7 @@ data:extend(
       count = 1000,
       ingredients =
       {
-        {"alienAAA", 1},
+        {"science-pack-1", 1},
       },
     },
     order = "w",
@@ -292,6 +292,45 @@ for i = 1,5 do
 		upgrade = true,
 		order = "e-n-e",
 		icon_size = 640,
+	  },
+	})
+end  
+
+for i = 1,5 do
+	local ingredients = {
+			{"erlenmeyer-alien-2", 200},
+	}
+	if i > 4 then
+		ingredients = {
+			{"erlenmeyer-alien-3", 600},
+		}
+	end
+		  
+	data:extend({
+	  {
+		type = "technology",
+		name = "boost_lab" .. i,
+		localised_description = {"technology-description.boost_lab", tostring(i)},
+		localised_name = {"technology-name.boost_lab", tostring(i)},
+		icon = "__AAA-agile-alien-academy__/graphics/icon/boost_Lab.png",
+		effects =
+		{
+		  {
+			type = "laboratory-speed",
+			modifier = 2.5,
+			--effect_description = {"modifier-description.boost_lab", tostring("1")}
+		  }
+		},
+		prerequisites = {i == 1 and "research-speed-5" or "boost_lab" .. (i-1)},
+		unit =
+		{
+		  count = i <= 4 and 100*i or 1000*(i-4),
+		  ingredients = ingredients,
+		  time = 30
+		},
+		upgrade = true,
+		order = "e-n-e",
+		icon_size = 284,
 	  },
 	})
 end  

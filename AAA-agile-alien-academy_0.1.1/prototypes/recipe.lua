@@ -16,7 +16,7 @@ data:extend(
     type = "recipe",
     name = "erlenmeyer-alien-1",
 	group = "AAA",
-    enabled = false,
+    enabled = true,
 	energy_required = 10,
     ingredients =
     {
