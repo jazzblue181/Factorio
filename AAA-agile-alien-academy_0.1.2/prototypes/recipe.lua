@@ -69,6 +69,117 @@ data:extend(
     },
     result = "erlenmeyer-alien-4",
 	result_count=9  
+  }, 
+  {
+    type = "recipe",
+    name = "flask_alien",
+	group = "AAA",
+    enabled = false,
+	energy_required = 40,
+    ingredients =
+    {
+		{"alienAAA", 1000},
+    },
+    result = "flask_alien",
+	result_count=1  
+  },
+  {
+    type = "recipe",
+    name = "science-pack-1_alien",
+	group = "AAA",
+    enabled = false,
+	energy_required = 40,
+    ingredients =
+    {
+		{"science-pack-1", 1},
+		{"flask_alien", 1},
+    },
+    result = "science-pack-1",
+	result_count=1000  
+  },
+   {
+    type = "recipe",
+    name = "science-pack-2_alien",
+	group = "AAA",
+    enabled = false,
+	energy_required = 40,
+    ingredients =
+    {
+		{"science-pack-2", 1},
+		{"flask_alien", 1},
+    },
+    result = "science-pack-2",
+	result_count=1000  
+  }, 
+    {
+    type = "recipe",
+    name = "science-pack-3_alien",
+	group = "AAA",
+    enabled = false,
+	energy_required = 40,
+    ingredients =
+    {
+		{"science-pack-3", 1},
+		{"flask_alien", 1},
+    },
+    result = "science-pack-3",
+	result_count=1000  
+  },
+  {
+    type = "recipe",
+    name = "military-science-pack_alien",
+	group = "AAA",
+    enabled = false,
+	energy_required = 40,
+    ingredients =
+    {
+		{"military-science-pack", 1},
+		{"flask_alien", 1},
+    },
+    result = "military-science-pack",
+	result_count=1000  
+  },
+  {
+    type = "recipe",
+    name = "production-science-pack_alien",
+	group = "AAA",
+    enabled = false,
+	energy_required = 40,
+    ingredients =
+    {
+		{"production-science-pack", 1},
+		{"flask_alien", 1},
+    },
+    result = "production-science-pack",
+	result_count=1000  
+  }, 
+  {
+    type = "recipe",
+    name = "high-tech-science-pack_alien",
+	group = "AAA",
+    enabled = false,
+	energy_required = 40,
+    ingredients =
+    {
+		{"high-tech-science-pack", 1},
+		{"flask_alien", 1},
+    },
+    result = "high-tech-science-pack",
+	result_count=1000  
+  },  
+  {
+    type = "recipe",
+    name = "space-science-pack_alien",
+	group = "AAA",
+    enabled = false,
+	energy_required = 40,
+    ingredients =
+    {
+		{"space-science-pack", 1},
+		{"flask_alien", 1},
+    },
+    result = "space-science-pack",
+	result_count=1000  
   },
     {
     type = "recipe",

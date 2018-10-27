@@ -100,6 +100,61 @@ data:extend(
     },
     order = "w",
   },
+  {
+    type = "technology",
+    name = "flaskAlien",
+	icon = "__AAA-agile-alien-academy__/graphics/icon/flask_alien.png",
+    icon_size = 720,
+    prerequisites = {"engine","erlenmeyerAlien3"},
+    effects =
+    {      
+		{
+			type = "unlock-recipe",
+			recipe = "flask_alien"
+		},	
+		{
+			type = "unlock-recipe",
+			recipe = "science-pack-1_alien"
+		},
+		{
+			type = "unlock-recipe",
+			recipe = "science-pack-2_alien"
+		},	
+		{
+			type = "unlock-recipe",
+			recipe = "science-pack-3_alien"
+		},
+		{
+			type = "unlock-recipe",
+			recipe = "military-science-pack_alien"
+		},
+		{
+			type = "unlock-recipe",
+			recipe = "production-science-pack_alien"
+		},
+		{
+			type = "unlock-recipe",
+			recipe = "high-tech-science-pack_alien"
+		},	
+		{
+			type = "unlock-recipe",
+			recipe = "space-science-pack_alien"
+		},
+    },
+    unit =
+    {
+      time = 60,
+      count = 1000,
+      ingredients =
+      {
+        {"erlenmeyer-alien-1", 1},
+        {"erlenmeyer-alien-2", 1},
+        {"erlenmeyer-alien-3", 1},
+        {"erlenmeyer-alien-4", 1},
+      },
+    },
+    order = "w",
+  },    
      {
     type = "technology",
     name = "uranium-processing_alien",

@@ -1,3 +1,5 @@
+## 0.1.2 ##
++ alien flask : jocker fiole
 ## 0.1.1 ##
 patch minor bug
 + five techno for speed lab
