@@ -1,11 +1,11 @@
 {	
 	"name": "AAA-forEndGame",
-	"version": "0.1.2",
+	"version": "0.0.1",
 	"factorio_version": "0.16",
 	"title": "AAA for EndGame",
 	"author": "Jazzblue181",
 	"homepage": "http://mods.factorio.com/mods/Jazzblue181/AAA-forEndGame",
-	"date": "2018-09-08",
-    "dependencies": ["base >= 0.16", "EndgameCombat"],
+	"date": "2018-10-30",
+    "dependencies": ["base >= 0.16", "EndgameCombat", "AAA-agile-alien-academy"],
 	"description": "convert alien recipes of EndGameCombat for AAA agile alien academy (=double bonus :) )"
 }
