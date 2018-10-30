@@ -85,6 +85,10 @@
       "enabled": true
     },
     {
+      "name": "miniloader",
+      "enabled": true
+    },
+    {
       "name": "MoreAchievements",
       "enabled": true
     },
