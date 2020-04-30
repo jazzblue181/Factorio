@@ -45,6 +45,18 @@ data:extend(
 	order = "a[AAA]-c[erlenmeyer-alien-4]"
   },
   {
+    type = "tool",
+    name = "flask_alien",
+    icon = "__AAA-agile-alien-academy__/graphics/icon/flask_alien.png",
+    icon_size = 720,
+    flags = {"goes-to-main-inventory"},	
+	subgroup = "test-subgroup",
+    stack_size = 120,
+	durability = 60,
+	order = "a[AAA]-c[flask_alien]"
+  },
+  
+  {
     type = "item",
     name = "uranium-fuel-cell_alien",
     icon = "__AAA-agile-alien-academy__/graphics/icon/uranium-fuel-cell_alien.png",
