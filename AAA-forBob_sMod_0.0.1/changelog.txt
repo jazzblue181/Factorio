@@ -1,0 +1,2 @@
+## 0.0.1 ##
++ recipe for convert bob's Alien Artefact into alienAAA raw material

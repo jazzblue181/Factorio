@@ -1,0 +1,8 @@
+## 0.0.4 ##
++ 0.18 compatibility
+## 0.0.3 ##
+ + fix little bug
+## 0.0.2 ##
++ 0.17 compatibility
+## 0.0.1 ##
++ recipe for convert Alien Artefact into alienAAA raw material
